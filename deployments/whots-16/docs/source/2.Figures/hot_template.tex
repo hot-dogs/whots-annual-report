@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt]{article}
+%=====================PREAMBLE======================================
+\usepackage{0.Preamble/hot_style}
+%==================START DOCUMENT=======================================
+			% START DOCUMENT
+\begin{document}
+
+\input{titlepage}
+
+%    \maketitle
+    \thispagestyle{empty}
+    \clearpage
+
+%============= TOC, FIGURES, & TABLES===================================
+    \setcounter{tocdepth}{3}
+    
+    \tableofcontents
+    
+    \addtocontents{toc}{~\hfill\textbf{Page}\par}
+    
+    %\addcontentsline{toc}{section}{Contents}
+    \thispagestyle{empty}
+    \pagebreak
+    
+    \listoffigures
+    
+    %\addcontentsline{toc}{section}{List of Figures}
+    
+    \thispagestyle{empty}
+    
+    \pagebreak
+    
+    \listoftables
+    
+    %\addcontentsline{toc}{section}{List of Tables}
+    
+    \thispagestyle{empty}
+    
+    \pagebreak
+    
+
+    \setcounter{page}{1}
+
+%============= DOCUMENT BODY (SECTIONS)==================================
+\input{1.Mainmatter/1.section/section-1}
+\input{1.Mainmatter/2.section/section-2}
+\input{1.Mainmatter/3.section/section-3}
+\input{1.Mainmatter/4.section/section-4}
+\input{1.Mainmatter/5.section/section-5}
+\input{1.Mainmatter/6.section/section-6}
+%==============BIBLIOGRAPHY==============================================
+\pagebreak
+\section*{References}
+\addcontentsline{toc}{section}{References}
+\printbibliography
+
+%=============== APPENDIX================================================
+\pagebreak
+\appendix
+\appendixpage
+\addappheadtotoc
+%=======================================================================
+\end{document}

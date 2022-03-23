@@ -1,0 +1,24 @@
+% PACKAGES
+\usepackage[margin=1in]{geometry}
+\usepackage[nodayofweek,level]{datetime}
+\usepackage{authblk}
+\usepackage{graphicx} % Include Images
+\graphicspath{ {2.Figures/} }
+\setlength{\parskip}{1em}% Add Space between paragraphs
+\setlength{\parindent}{0em}
+\usepackage[backend=biber, style=authoryear]{biblatex} % Allow Citations
+\addbibresource{whots15.bib}
+\usepackage{appendix} % Add Appendix to document
+\usepackage[labelfont=bf, skip=5pt, font=small]{caption}%Add extra functions to captions
+\usepackage{subcaption} % Allow for subcaptions on subfigure encironments
+\usepackage{soul} % Allows use of `\hl{}` command for highlighting text
+\usepackage[utf8]{inputenc} % Ensure UTF8 Encoding
+\usepackage{hyperref} % Hyper links
+ \hypersetup{colorlinks=true,
+ 		     linkcolor=blue,    
+		     filecolor=magenta,      
+    		 urlcolor=cyan,
+		     citecolor=blue,
+		     pdfnewwindow=true}
+		     
+		     

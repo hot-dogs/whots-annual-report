@@ -1,0 +1,83 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\nobreakspace {}\hfill \textbf {Page}\par 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Figures}{1}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Tables}{2}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Description of the WHOTS-15 Mooring Cruises}{5}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}WHOTS-15 Cruise: WHOTS-15 Mooring Deployment}{5}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Description of WHOTS-15 Mooring}{9}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}WHOTS (15-16) Cruise Shipboard Observations}{9}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Conductivity, Temperature, and Depth (CTD) Profiling}{9}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Data Acquisition and Processing}{9}{subsubsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}CTD Sensor Calibration and Corrections}{9}{subsubsection.4.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Water Sampling and Analysis}{9}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Thermosalinograph Data Acquisition and Processing }{9}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1}WHOTS-15 Cruise}{9}{subsubsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.2}WHOTS-16 Cruise}{9}{subsubsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Shipboard ADCP}{9}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1}WHOTS-15 Deployment Cruise}{9}{subsubsection.4.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.2}WHOTS-16 Deployment Cruise}{9}{subsubsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Moored Instrument Observations}{9}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}MicroCAT-SeaCAT Data Processing Procedures}{9}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1}Internal Clock Check and Missing Samples}{9}{subsubsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.2}Pressure Drift Correction and Pressure Variability}{9}{subsubsection.5.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.3}Temperature Sensor Stability}{9}{subsubsection.5.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.4}Conductivity Calibration}{9}{subsubsection.5.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Acoustic Doppler Current Profiler}{9}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1}Compass Calibrations}{9}{subsubsection.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2}ADCP Configurations}{9}{subsubsection.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.3}ADCP data processing procedures}{9}{subsubsection.5.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Vector Measuring Current Meter (VMCM)}{9}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Global Positioning System Receiver}{9}{subsection.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Results}{9}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}CTD Profiling Data}{9}{subsection.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Thermosalinograph Data}{9}{subsection.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}MicroCAT Data}{9}{subsection.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4}Moored ADCP Data}{9}{subsection.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5}Moored and Shipboard ADCP Comparisons}{9}{subsection.6.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.6}Next Generation Vector Measuring Current Meter Data (VMCM)}{9}{subsection.6.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.7}GPS Data}{9}{subsection.6.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8}Mooring Motion}{9}{subsection.6.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{10}{section*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendices}{11}{section*.10}%
