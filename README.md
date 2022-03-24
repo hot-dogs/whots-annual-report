@@ -10,18 +10,24 @@ as a coordinated part of the HOT program, and as an element in the National
 Oceanic and Atmospheric Administration’s (NOAA) array of global ocean 
 reference stations
 
-
-With support from the NOAA and the National Science Foundation (NSF), 
-the WHOI HOT Site (WHOTS) surface mooring has been maintained at Station 
-ALOHA since August 2004. The objective of this project is to provide 
-long-term, high-quality air-sea fluxes as a coordinated part of the 
-HOT program and contribute to the goals of observing heat, fresh water 
-and chemical fluxes at a site representative of the oligotrophic North 
-Pacific Ocean. The approach is to maintain a surface mooring outfitted 
-for meteorological and oceanographic measurements at a site near Station 
-ALOHA by successive mooring turnarounds. These observations will be 
-used to investigate air sea interaction processes related to climate 
-variability.
-
 ## TODO 
 --> _add the structure_
+
+```
+docs/                           -> needs to be the in the rooti
+    conf.py                     -> mandatory!
+    index.md                    -> mandatory! Make a toctree that will point to whots-xx report 
+    whots_deployments/          -> all whots cruise reports!     
+                     whots-16/  -> include the book-theme here.
+    
+    report_latex_template/            -> use this folder as the latex template for all cruises
+
+
+                
+README.md                       -> Short descrition of WHOTS and point to official report website
+                                   hosted on readthedocs or github pages.
+.readthedocs.yaml               -> how to build this? using conda setup?
+.gitignore
+environment.yml?                -> need to see if necessary for conda
+
+```
