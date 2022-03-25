@@ -1,4 +1,4 @@
-# WHOTS Annual Data Reports 
+# Woods Hole - Hawaii Ocean Time-series Site (WHOTS) 
 
 %:::{card} Start Here
 %:width: 25% 
@@ -10,7 +10,7 @@
 ```{toctree} 
 :maxdepth: 1
 :includehidden:
-:caption: "Deployments:"
+:caption: "Reports:"
 
 
 whots-deployments/whots-16/source/index.md
