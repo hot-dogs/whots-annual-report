@@ -87,30 +87,14 @@ html_theme_options = {
 # -- Options for LaTeX output ---------------------------------------------
 latex_engine = 'pdflatex'
 
-atex_engine = 'xelatex'
-latex_show_urls = 'footnote'
-latex_additional_files = []
 latex_elements = {
-    'papersize': 'a4paper',
-    'pointsize': '11pt',
-    'figure_align': 'htbp',
-    'preamble': '',
+'classoptions': ',openany,oneside',
+'babel': '\\usepackage[english]{babel}',
+
+'preamble': '\\usepackage{pdflscape}',
 }
 
-latex_elements['preamble'] += r"""
-\usepackage{amsfonts}
-\usepackage{parskip}
-\usepackage{microtype}
-"""
-
-# Latex Titlepage
-latex_logo = None
-mystyle = 'title'
-latex_elements['preamble'] += '\n'.join((
-    r'\usepackage{%s}' % mystyle,
-    r'\institute{%s}' % institute,
-    r'\subtitle{%s}' % subtitle,
-    r'\department{%s}' % department,
-))
-latex_additional_files += [mystyle + '.sty']
-
+latex_documents = [
+  ('index', 'whots-report-test.tex', u'whots report test',
+   u'Fernando Carvalho Pacheco', 'manual'),
+]
