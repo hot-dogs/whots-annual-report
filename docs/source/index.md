@@ -14,7 +14,7 @@
 :caption: "Deployments:"
 
 
-list_deployments.md
+list_deployments
 %whots-deployments/whots-16/source/index.md
 
 ```
