@@ -13,6 +13,7 @@
 import os
 import sys
 from datetime import datetime
+
 sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
@@ -87,17 +88,33 @@ html_theme_options = {
 }
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = 'pdflatex'
+# latex_engine = 'pdflatex'
+# latex_elements = {
+# 'classoptions': ',openany,oneside',
+# 'babel': '\\usepackage[english]{babel}',
+# 'preamble': '\\usepackage{pdflscape}',
+# }
 
 latex_elements = {
-'classoptions': ',openany,oneside',
-'babel': '\\usepackage[english]{babel}',
-'preamble': '\\usepackage{pdflscape}',
+    # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
+
+    # The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '11pt',
+
+    # Additional stuff for the LaTeX preamble.
+    # 'preamble': '',
+
+    # Latex figure (float) alignment
+    # 'figure_align': 'htbp',
+
+    # Remove blank pages from PDF build
+    'classoptions': ',openany',
 }
 
 latex_documents = [
-  ('index', 'whots-report-test.tex', u'WHOTS-LATEX-TEST',
-   u'Fernando Carvalho Pacheco', 'report'),
+    ('master_doc', 'whots-report-test.tex', u'WHOTS-LATEX-TEST',
+     [author], 'manual'),
 ]
 # -- Options for manual page output ---------------------------------------
 
@@ -108,6 +125,8 @@ man_pages = [
     ('index', 'whots-manual-page-test', u'whots-manual-page-test',
      [u'Fernando Carvalho Pacheco'], 1)
 ]
+
+latex_logo = "../source/_static/_images/logo_HOT.jpg"
 
 # -- Options for Epub output ----------------------------------------------
 
