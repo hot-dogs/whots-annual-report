@@ -1,10 +1,8 @@
+(whots-16)=
 #  WHOTS-16 
 
 ```{toctree} 
-:maxdepth: 2
-:numbered:
-:includehidden:
-:caption: Content
+:maxdepth: 1
 
 1_section
 2_section
