@@ -12,8 +12,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
 
+sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
@@ -84,3 +84,91 @@ html_theme_options = {
     "home_page_in_toc": False,
 }
 
+# -- Options for LaTeX output ---------------------------------------------
+latex_engine = 'pdflatex'
+
+latex_elements = {'papersize': 'a4paper', 'releasename': " ", 'fncychap': '\\usepackage{fncychap}',
+                  'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}', 'figure_align': 'htbp',
+                  'pointsize': '10pt',
+                  'preamble': '\\usepackage[margin=1in]{geometry}\n' + \
+                              '\\usepackage[nodayofweek,level]{datetime}\n' + \
+                              '\\usepackage{authblk}\n' + \
+                              '\\usepackage{graphicx} % Include Images\n' + \
+                              '\\graphicspath{ {2.Figures/} }\n' + \
+                              '\\setlength{\parskip}{1em}% Add Space between paragraphs\n' + \
+                              '\\setlength{\parindent}{0em}\n' + \
+                              '\\usepackage[backend=biber, style=authoryear]{biblatex} % Allow Citations\n' + \
+                              '\\addbibresource{whots16.bib}\n' + \
+                              '\\usepackage{appendix} % Add Appendix to document\n' + \
+                              '\\usepackage[labelfont=bf, skip=5pt, font=small]{caption}%Add extra functions to captions\n' + \
+                              '\\usepackage{subcaption} % Allow for subcaptions on subfigure encironments\n' + \
+                              '\\usepackage{soul} % Allows use of `\hl{}` command for highlighting text\n' + \
+                              '\\usepackage[utf8]{inputenc} % Ensure UTF8 Encoding\n' + \
+                              '\\usepackage{hyperref} % Hyper links\n' + \
+                              '\\hypersetup{colorlinks=true,linkcolor=blue, filecolor=magenta, urlcolor=cyan, citecolor=blue, pdfnewwindow=true}\n',
+                  'maketitle': r'''
+        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
+
+        \begin{titlepage}
+                \centering
+                
+                {\scshape\Large {University of Hawaii at Manoa} \par}
+                
+                \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} 
+                \rule{\textwidth}{1.6pt}
+                
+                \vspace{1cm}
+                
+                \hbox{\hspace{0em} \includegraphics[width=16cm]{2.Figures/logos/alll_whot_report.png}}
+                \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick 
+                \rule{\textwidth}{0.4pt} % Thin horizontal rule
+                
+                {\Large \textbf{Hydrographic Observations At the Woods Hole Oceanographic Institution Hawaii Ocean Time-series Site: 2019 - 2020} \par}
+                
+                by\par
+                
+                {\normalsize \ 
+                Fernando Carvalho Pacheco\footnote{The University of Hawaii at Manoa}, 
+                Fernando Santiago-Mandujano\footnotemark[\value{footnote}], 
+                Albert Plueddemann\footnote{Woods Hole Oceanographic Institution},
+                Robert Weller\footnotemark[\value{footnote}],
+                James Potemra\footnotemark[1],
+                Daniel Fitzgerald\footnotemark[1] 
+                and Nan Galbraith\footnotemark[2] \par}
+                
+                \vspace{0.25cm}
+                {\normalsize \today\par} 
+                {\Large\bfseries Technical Data Report - 15 \par}
+                
+                \vspace{1cm}
+                
+                {\normalsize \ Approved for public release; distribution unlimited. \par}
+            
+            % Bottom of the page
+                \vspace{1.5cm}
+                
+                {\normalsize \ The University of Hawaii at Manoa \\
+                School of Ocean and Earth Science and Technology \\
+                1000 Pope Road, Honolulu, Hawaii 96822\par}
+                \vspace{1cm}
+                
+                {\large\ SOEST Publication no.  \par} 
+                
+                \vspace{0.25cm}
+
+        \end{titlepage}
+
+        \clearpage
+        \pagenumbering{roman}
+        \tableofcontents
+        \listoffigures
+        \listoftables
+        \clearpage
+        \pagenumbering{arabic}
+
+        ''', 'sphinxsetup': 'hmargin={0.7in,0.7in}, vmargin={1in,1in}, \
+        verbatimwithframe=true, \
+        TitleColor={rgb}{0,0,0}, \
+        HeaderFamily=\\rmfamily\\bfseries, \
+        InnerLinkColor={rgb}{0,0,1}, \
+        OuterLinkColor={rgb}{0,0,1}', 'tableofcontents': ' '}
