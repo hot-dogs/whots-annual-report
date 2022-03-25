@@ -9,3 +9,6 @@ high-quality air-sea fluxes and the associated upper ocean response
 as a coordinated part of the HOT program, and as an element in the National 
 Oceanic and Atmospheric Administration’s (NOAA) array of global ocean 
 reference stations
+
+
+[WHOTS ANNUAL REPORT](https://whots-annual-report.readthedocs.io/en/latest/index.html) *(under development)*
