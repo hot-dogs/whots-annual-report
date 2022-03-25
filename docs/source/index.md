@@ -1,4 +1,4 @@
-# WHOTS 
+# WHOTS Annual Data Reports 
 
 %:::{card} Start Here
 %:width: 25% 
@@ -8,11 +8,11 @@
 
 
 ```{toctree} 
-:maxdepth: 3
+:maxdepth: 2
 :numbered:
 :includehidden:
 :caption: Content
 
-whots-deployments/whots-16/
+whots-deployments/whots-16/source/index.md
 
 ```
