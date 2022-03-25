@@ -1,5 +1,5 @@
 .. whots-annual-report documentation master file, created by
-   sphinx-quickstart on Thu Mar 24 15:43:13 2022.
+   sphinx-quickstart on Thu Mar 24 15:53:27 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
