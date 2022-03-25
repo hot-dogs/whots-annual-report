@@ -13,4 +13,4 @@ Oceanic and Atmospheric Administration’s (NOAA) array of global ocean
 reference stations
 
 
-[WHOTS ANNUAL REPORT](https://whots-annual-report.readthedocs.io/en/latest/index.html) *(under development)*
+[WHOTS ANNUAL REPORT](https://whots-annual-report.readthedocs.io/en/latest/?badge=latest) *(under development)*
