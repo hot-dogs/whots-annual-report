@@ -6,11 +6,11 @@
 :includehidden:
 :caption: Content
 
-1.section
-2.section
-3.section
-4.section
-5.section
-6.section
+1_section
+2_section
+3_section
+4_section
+5_section
+6_section
 
 ```
