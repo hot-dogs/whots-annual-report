@@ -11,8 +11,10 @@
 :maxdepth: 2
 :numbered:
 :includehidden:
-:caption: Content
+:caption: "Deployments:"
 
-whots-deployments/whots-16/source/index.md
+
+list_deployments.md
+%whots-deployments/whots-16/source/index.md
 
 ```
