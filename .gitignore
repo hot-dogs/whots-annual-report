@@ -6,3 +6,22 @@ docs/build/
 # Environments
 .env
 
+### Latex #########
+*.gz
+*.aux
+*.idx
+*.log
+*.nlo
+*.out
+*.toc
+*.ind
+*.ilg
+*.bbl
+*.blg
+*.loa
+*.loe
+*.lof
+*.lol
+*.lot
+*.nlg
+*.nls
