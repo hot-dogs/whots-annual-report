@@ -12,7 +12,7 @@
 #
 import os
 import sys
-
+from datetime import datetime
 sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
@@ -57,6 +57,8 @@ autosectionlabel_maxdepth = 3
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+source_suffix = '.md'
+master_doc = 'index'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -90,11 +92,27 @@ latex_engine = 'pdflatex'
 latex_elements = {
 'classoptions': ',openany,oneside',
 'babel': '\\usepackage[english]{babel}',
-
 'preamble': '\\usepackage{pdflscape}',
 }
 
 latex_documents = [
-  ('index', 'whots-report-test.tex', u'whots report test',
-   u'Fernando Carvalho Pacheco', 'manual'),
+  ('index', 'whots-report-test.tex', u'WHOTS-LATEX-TEST',
+   u'Fernando Carvalho Pacheco', 'report'),
 ]
+# -- Options for manual page output ---------------------------------------
+
+
+# One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
+man_pages = [
+    ('index', 'whots-manual-page-test', u'whots-manual-page-test',
+     [u'Fernando Carvalho Pacheco'], 1)
+]
+
+# -- Options for Epub output ----------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = u'whots-epub-test'
+epub_author = u'Fernando Carvalho Pacheco'
+epub_publisher = u'Fernando Carvalho Pacheco'
+epub_copyright = f'2014-{datetime.now().year}, Fernando Carvalho Pacheco'
