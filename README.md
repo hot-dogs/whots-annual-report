@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/whots-annual-report/badge/?version=latest)](https://whots-annual-report.readthedocs.io/en/latest/?badge=latest)
+
 # Woods Hole - Hawaii Ocean Time-series Site
 ## The WHOTS Project
 
