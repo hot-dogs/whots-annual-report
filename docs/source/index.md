@@ -13,6 +13,6 @@
 :includehidden:
 :caption: Content
 
-whots-deployments/whots-16/whots-16
+whots-deployments/whots-16/
 
 ```
