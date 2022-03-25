@@ -8,13 +8,10 @@
 
 
 ```{toctree} 
-:maxdepth: 2
-:numbered:
+:maxdepth: 1
 :includehidden:
 :caption: "Deployments:"
 
 
-list_deployments
-%whots-deployments/whots-16/source/index.md
-
+whots-deployments/whots-16/source/index.md
 ```
