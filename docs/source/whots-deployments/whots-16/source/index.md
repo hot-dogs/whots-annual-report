@@ -1,4 +1,4 @@
-#  WHOTS-16 documentation master file
+#  WHOTS-16 
 
 ```{toctree} 
 :maxdepth: 2
@@ -13,4 +13,4 @@
 5.section
 6.section
 
-```:wq
+```
