@@ -30,7 +30,7 @@ docs/                               -> needs to be the in the root
         whots_deployments/          -> all whots cruise reports!     
                          whots-16/  -> WHOTS-16 with latex,book-theme structure ?
     
-        report_latex_template/      -> latex template for reports
+        templates/                  -> latex +other template for reports
 
 
                 
