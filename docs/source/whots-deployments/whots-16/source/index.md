@@ -1,7 +1,7 @@
 # WHOTS-16  
 
 ```{toctree} 
-:maxdepth: 3
+:maxdepth: 2
 :numbered:
 
 1_section
