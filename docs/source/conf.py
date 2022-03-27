@@ -112,10 +112,10 @@ latex_elements = {
     'classoptions': ',openany',
 }
 
-# latex_documents = [
-#     ('master_doc', 'whots-report-test.tex', u'WHOTS-LATEX-TEST',
-#      [author], 'manual'),
-# ]
+latex_documents = [
+    ('master_doc', 'whots-report-test.tex', u'WHOTS-LATEX-TEST',
+     [author], 'manual'),
+]
 # -- Options for manual page output ---------------------------------------
 
 

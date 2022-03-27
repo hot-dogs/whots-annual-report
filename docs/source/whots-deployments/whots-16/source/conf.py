@@ -78,7 +78,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'generaldocs.tex', u'General Documentation',
-     u'SRS', 'manual'),
-]
+# latex_documents = [
+#     (master_doc, 'generaldocs.tex', u'General Documentation',
+#      u'SRS', 'manual'),
+# ]
