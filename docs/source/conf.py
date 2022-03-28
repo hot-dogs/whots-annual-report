@@ -95,27 +95,27 @@ html_theme_options = {
 # 'preamble': '\\usepackage{pdflscape}',
 # }
 
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'a4paper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '11pt',
-
-    # Additional stuff for the LaTeX preamble.
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    # 'figure_align': 'htbp',
-
-    # Remove blank pages from PDF build
-    'classoptions': ',openany',
-}
-
-latex_documents = [
-    ('master_doc', 'whots-report-test.tex', u'WHOTS-LATEX-TEST',
-     [author], 'manual'),
-]
+# latex_elements = {
+#     # The paper size ('letterpaper' or 'a4paper').
+#     'papersize': 'a4paper',
+#
+#     # The font size ('10pt', '11pt' or '12pt').
+#     'pointsize': '11pt',
+#
+#     # Additional stuff for the LaTeX preamble.
+#     # 'preamble': '',
+#
+#     # Latex figure (float) alignment
+#     # 'figure_align': 'htbp',
+#
+#     # Remove blank pages from PDF build
+#     'classoptions': ',openany',
+# }
+#
+# latex_documents = [
+#     ('master_doc', 'whots-report-test.tex', u'WHOTS-LATEX-TEST',
+#      [author], 'manual'),
+# ]
 # -- Options for manual page output ---------------------------------------
 
 
