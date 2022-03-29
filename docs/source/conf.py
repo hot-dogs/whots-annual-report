@@ -104,12 +104,12 @@ latex_elements = {
 latex_documents = [
     ('index', 'whots-latex-test.tex',
      u'WHOTS-16 Data Report',
-     u'Fernando Carvalho Pacheco', 'article'),
+     u'Fernando Carvalho Pacheco', 'report'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = "../source/_static/_images/logo_HOT.jpg"
+latex_logo = "/_static/_images/logo_HOT.jpg"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
