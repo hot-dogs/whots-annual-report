@@ -75,7 +75,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.env']
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "source/_static/_images/logo_HOT.jpg"
+html_logo = "_static/_images/logo_HOT.jpg"
 html_title = "WHOTS"
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -122,7 +122,7 @@ latex_documents = [
 # latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-latex_show_urls = False
+#latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
 # latex_appendices = []
