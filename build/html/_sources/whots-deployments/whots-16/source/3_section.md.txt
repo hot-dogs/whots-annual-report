@@ -1,1 +1,0 @@
-# Description of WHOTS-16 Mooring
