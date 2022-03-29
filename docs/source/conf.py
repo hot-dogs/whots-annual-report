@@ -121,12 +121,12 @@ html_theme_options = {
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    ('index', 'whots-manual-page-test', u'whots-manual-page-test',
-     [u'Fernando Carvalho Pacheco'], 1)
-]
-
-latex_logo = "../source/_static/_images/logo_HOT.jpg"
+# man_pages = [
+#     ('index', 'whots-manual-page-test', u'whots-manual-page-test',
+#      [u'Fernando Carvalho Pacheco'], 1)
+# ]
+#
+# latex_logo = "../source/_static/_images/logo_HOT.jpg"
 
 # -- Options for Epub output ----------------------------------------------
 
