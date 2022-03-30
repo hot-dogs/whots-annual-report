@@ -104,7 +104,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     ('index', 'whots-latex-test.tex',
-     u'WHOTS-16 Data Report',
+     u'WHOTS-16: Data Report',
      u'Fernando Carvalho Pacheco', 'report'),
 ]
 
