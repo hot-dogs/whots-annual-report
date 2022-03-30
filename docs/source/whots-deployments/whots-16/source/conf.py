@@ -16,7 +16,6 @@ from datetime import datetime
 
 sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'WHOTS-16'
@@ -25,7 +24,6 @@ author = 'Fernando Carvalho Pacheco'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
-
 
 # -- General configuration ---------------------------------------------------
 extensions = [
@@ -93,13 +91,13 @@ html_theme_options = {
 # -- Options for LaTeX output ---------------------------------------------
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
-    # 'papersize': 'letterpaper',
-
+    'papersize': 'a4paper',
     # The font size ('10pt', '11pt' or '12pt').
-    # 'pointsize': '10pt',
-
+    'pointsize': '12pt',
     # Additional stuff for the LaTeX preamble.
-    # 'preamble': '',
+    'preamble': '',
+    # Latex figure (float) alignment
+    'figure_align': 'htbp',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -112,7 +110,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo =
+# latex_logo =
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -122,7 +120,7 @@ latex_documents = [
 # latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+# latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
 # latex_appendices = []
