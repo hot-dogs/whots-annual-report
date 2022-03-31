@@ -73,7 +73,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.env']
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_logo = "_static/_images/logo_HOT.png"
+html_logo = "_static/_images/all_whots_report.png"
 html_title = "WHOTS"
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -105,12 +105,12 @@ latex_elements = {
 latex_documents = [
     ('index', 'whots-latex-test.tex',
      u'WHOTS-16: Data Report',
-     u'Fernando Carvalho Pacheco', 'report'),
+     u'Fernando Carvalho Pacheco', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = "_static/_images/logo_HOT.png"
+latex_logo = "_static/_images/all_whots_report.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
