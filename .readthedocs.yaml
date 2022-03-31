@@ -7,10 +7,10 @@ version: 2
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-  configuration: docs/source/conf.py
-
+  #configuration: docs/source/conf.py
+   configuration: docs/source/whots-deployments/whots-16/source/conf.py
 # Include PDF and ePub
-#formats: all
+formats: all
 
 conda:
   environment: docs/environment.yml
