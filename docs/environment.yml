@@ -1,4 +1,4 @@
-name: /Users/fcp/workspace/1.git/5.whots/whots-report/.env
+name: /Users/fcp/workspace/1.git/5.whots/whots-annual-report/.env
 channels:
   - conda-forge
   - defaults
@@ -12,4 +12,4 @@ dependencies:
   - ipython=8.1.1
   - nbsphinx=0.8.8
   - python=3.10
-prefix: /Users/fcp/workspace/1.git/5.whots/whots-report/.env
+prefix: /Users/fcp/workspace/1.git/5.whots/whots-annual-report/.env
