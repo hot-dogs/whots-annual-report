@@ -36,6 +36,7 @@ extensions = [
 
 intersphinx_mapping = {
     "cchdo-website": ("https://exchange-format.readthedocs.io/en/latest/", None),
+    "whots-16": ("https://whots-annual-report.readthedocs.io/projects/whots16-data-report/en/latest/", None),
 }
 
 myst_url_schemes = ["http", "https", ]
