@@ -18,11 +18,11 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'whots-annual-report'
-copyright = '2022, Fernando Carvalho Pacheco'
+copyright = '2024, Fernando Carvalho Pacheco'
 author = 'Fernando Carvalho Pacheco'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '1.0.0'
 
 extensions = [
     "myst_parser",
@@ -35,7 +35,6 @@ extensions = [
 ]
 
 intersphinx_mapping = {
-    "cchdo-website": ("https://exchange-format.readthedocs.io/en/latest/", None),
     "whots-16": ("https://whots-annual-report.readthedocs.io/projects/whots16-data-report/en/latest/", None),
 }
 
