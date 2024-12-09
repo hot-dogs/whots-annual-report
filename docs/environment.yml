@@ -1,16 +1,18 @@
-name: /Users/fcp/workspace/1.git/5.whots/whots-annual-report/.env
+name: whots-data-report
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - sphinx-book-theme=0.2.0
-  - sphinx-design=0.0.13
-  - sphinx-autodoc-typehints=1.12.0
-  - sphinx=4.4.0
-  - sphinx-autobuild=2021.3.14
-  - sphinxcontrib-bibtex=2.4.2
-  - myst-parser=0.17.0
-  - ipython=8.1.1
   - nbsphinx=0.8.8
+  - cookiecutter=1.7.3
   - python=3.10
-prefix: /Users/fcp/workspace/1.git/5.whots/whots-annual-report/.env
+  - sphinx-design=0.0.13
+  - sphinx-book-theme=0.2.0
+  - ipython=8.1.1
+  - sphinx-autodoc-typehints=1.12.0
+  - sphinx-autobuild=2021.3.14
+  - myst-parser=0.17.0
+  - sphinx=4.4.0
+  - sphinxcontrib-bibtex=2.5.0
+  - pip:
+    - readthedocs-sphinx-ext
