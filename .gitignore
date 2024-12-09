@@ -1,7 +1,6 @@
 .DS_Store
 
-docs/build/
-docs/source/whots-deployments/whots-16/build/
+_build/*
 
 # Environments
 .env
